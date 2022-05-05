@@ -16,6 +16,8 @@ class TodoLivewire extends Component
 
     use AuthorizesRequests;
 
+    protected $paginationTheme = 'bootstrap';
+
     protected $todos;
 
     public $name;
